@@ -1,0 +1,100 @@
+/* 
+    Created on : Feb 22, 2017, 2:48:31 AM
+    Author     : shithilboss
+*/
+*{margin: 0; padding: 0; outline: 0}
+body{font-family: Helvetica, Verdana, sans-serif;font-size: 14px; line-height: 18px;
+     color: #000;  
+}
+.templete{width: 960px; margin: auto;} 
+.clear{overflow: hidden;}
+.headersection{height: 220px; 
+               text-align: center;
+               background-color: rgb(68,68,68); 
+               color: whitesmoke;}
+.headerright h1 {float: left;
+
+                 padding: 18px;}
+.headerleft img {float: left;
+                 margin: -2px;
+                 padding: 0px;}
+.navsection {
+    height: 50px;
+    padding: 5px;
+}
+div.menu5
+{
+    /*width:500px;margin:0 auto;*//*Uncomment this line to make the menu center-aligned.*/
+    text-align:center;
+    background:#332E28;
+    border:1px solid black;
+    font-size:0;
+    padding:1px;
+}
+
+div.menu5 a {
+    display: inline-block;
+    padding: 0 20px;
+    background: #3A332C;
+    border: 3px solid #5E544A;
+    color: #C4B09C;
+    text-decoration: none;
+    font: bold 12px Arial;
+    line-height: 31px;
+    margin-right: 43px;
+}
+
+div.menu5 a:hover, div.menu5 a.current
+{
+    background:#484037;
+    color:#E6D4C3;
+}
+
+.contentsection{background: #ffffff;}
+.maincontent{background: #dfdfdf;
+             float: left;
+             padding: 10px; 
+             width: 650px;
+             margin: 15px 15px 15px 0;
+}
+.samePost{}
+.samePost h2{border-bottom: 2px solid #555;
+             font-size: 24px;
+             margin-bottom: 10px;
+             padding: 10px;
+}
+.samePost img{background: #fff no-repeat scroll 0 0;
+              border: 1px solid #9b999a;
+              float: left;
+              margin-right: 10px;
+              padding: 5px;
+              width: 250px;
+
+}
+.samePost p{}
+.sidebar {
+    background: #bbb9ba;
+    float: right;
+    margin-top: 15px;
+    padding: 10px;
+    width: 255px;
+    margin-bottom: 15px;
+}
+.semisidebar h2 {
+    background: #dfdfdf;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-bottom: solid;
+    color: #444444;
+}
+.semisidebar p{margin-bottom: 10px;}
+.footersection {
+    height: 90px;
+    background: #555555;
+
+}
+.footersection p{padding: 0px;
+                 font-size: 25px;
+                 color: white;
+                 text-align: center;}
+
